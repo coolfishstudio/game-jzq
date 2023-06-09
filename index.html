@@ -4,30 +4,30 @@
 		<title>井字棋</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable =no">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/support.js"></script>
-		<script type="text/javascript" src="js/main.js"></script> 
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<script type="text/javascript" src="./js/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/main.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1>井字棋</h1>
-			<a href="javascript:newGame();" id="newGameBtn">New Game</a>
-			<p>挑战 <span id="sum">0</span>次,成功 <span id="succeed">0</span>次</p>
-		</header>
-		<div id="grid-container">
-			<div class="grid-cell" id="grid-cell-0-0"></div>
-			<div class="grid-cell" id="grid-cell-0-1"></div>
-			<div class="grid-cell" id="grid-cell-0-2"></div>
-			
-			<div class="grid-cell" id="grid-cell-1-0"></div>
-			<div class="grid-cell" id="grid-cell-1-1"></div>
-			<div class="grid-cell" id="grid-cell-1-2"></div>
+		<div id="gamePanel">
+			<header>
+				<h1>井字棋</h1>
+				<a id="newGameBtn">New Game</a>
+				<p>挑战 <span id="sum">0</span>次,成功 <span id="succeed">0</span>次</p>
+			</header>
+			<div id="grid-container">
+				<div class="grid-cell" id="grid-cell-0-0"></div>
+				<div class="grid-cell" id="grid-cell-0-1"></div>
+				<div class="grid-cell" id="grid-cell-0-2"></div>
 
-			<div class="grid-cell" id="grid-cell-2-0"></div>
-			<div class="grid-cell" id="grid-cell-2-1"></div>
-			<div class="grid-cell" id="grid-cell-2-2"></div>
+				<div class="grid-cell" id="grid-cell-1-0"></div>
+				<div class="grid-cell" id="grid-cell-1-1"></div>
+				<div class="grid-cell" id="grid-cell-1-2"></div>
+
+				<div class="grid-cell" id="grid-cell-2-0"></div>
+				<div class="grid-cell" id="grid-cell-2-1"></div>
+				<div class="grid-cell" id="grid-cell-2-2"></div>
+			</div>
 		</div>
-
 	</body>
 </html>

@@ -1,0 +1,20 @@
+{
+  "name": "game-jzq",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "dev": "npm run start"
+  },
+  "main": "app",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:coolfishstudio/game-jzq.git"
+  },
+  "author": {
+    "name": "coolfishstudio",
+    "email": "461836324@qq.com"
+  },
+  "dependencies": {
+  }
+}
